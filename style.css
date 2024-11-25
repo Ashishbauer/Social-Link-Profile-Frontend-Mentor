@@ -1,0 +1,69 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 100px;
+    margin: 30px 150px;
+}
+
+.head {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.location {
+    font-size: 14px;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.designation {
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    height: 40px;
+    width: 360px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
